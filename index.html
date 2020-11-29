@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="loader.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<title>Webinar</title>
+</head>
+<body>
+	<main>
+		<header>
+			<div class="logo">
+				<img src="assets/logo.svg">
+			</div>
+		</header>
+
+
+		<div id="loading" class="loading">
+			<div class="loader"></div>
+		</div>
+
+
+		<div class="title">
+			<h1 id="title"></h1>
+		</div>
+
+		<div class="description">
+			<p id="description"></p>
+		</div>
+
+		<div class="description">
+			<p id="date"></p>
+		</div>
+
+		
+		<div class="speakers_container" id="speakers_container">
+			<h2>Oradores</h2>
+
+			<div class="speakers" id="speakers">
+				
+			</div>
+		</div>
+		
+
+	</main>
+	
+	<aside>
+		<div class="title">
+			<h2>Inscreva-se</h2>
+		<div>
+		<div class="father">
+			<div class="form">
+				<div class="input">
+					<input type="text" placeholder="Nome">
+				</div>
+
+				<div class="input">
+					<input type="text" placeholder="Apelido">
+				</div>
+
+				<div class="input input-error">
+					<input type="text" placeholder="E-mail">
+					<div class="error">
+						<span>O email é invalido</span>
+					</div>
+				</div>
+
+				<div class="input">
+					<input type="text" placeholder="Confirmar e-mail">
+				</div>
+				
+				<div class="input">
+					<button>
+						Enviar
+					</button>
+				</div>
+
+				<div class="response">
+					<span id="response">qwdqwdwd</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="credits">
+			<div class="author">
+				<div class="as">
+					Site feito por <a target="_blank" href="#">Guilherme Guerra</a>
+				</div>
+			</div>
+
+			<div class="social">
+				<div class="icon">
+					<a href="https://www.instagram.com/webinartransformacaodigital/?hl=pt" target="_blank">
+						<img src="assets/insta.png">
+					</a>
+				</div>
+
+				<div class="icon">
+					<a href="https://www.facebook.com/Webinar-Transforma%C3%A7%C3%A3o-Digital-uma-nova-realidade-100525368580605/" target="_blank">
+						<img src="assets/facebook.png">
+					</a>
+				</div>
+			</div>
+		</div>
+	</aside>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
